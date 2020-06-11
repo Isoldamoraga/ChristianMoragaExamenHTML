@@ -85,24 +85,19 @@ footer{
     height: 25px;
     
 }
-.tabla{
-    margin:45px;
-    border: 1px solid;    
-    width: 0px;
-    padding: 4px;    
-   }
-.tabla thead{    
-    border: 1px solid;    
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: blanchedalmond;
+    
+}
+
+th, td{
+    padding: 10px;
+    margin: 20px;
     text-align: center;
 }
-.tabla td td td td td td{    
-        align-items: center;
-        border-collapse: collapse;
-        padding: 10px;
-}
-.tabla th, td{
-    padding: 10px;
-}
+
 iframe{
    width: 50%;
    margin: 10px 250px;
@@ -146,4 +141,26 @@ address{
    height: 500px;   
    margin-left: 55px;
    text-align: center;
+}
+.label2{
+    text-align: center;
+    width: 100px;
+    height: 100px;    
+    margin-left: 50px;    
+}
+.label3{
+    width: 50px;
+    margin-left: 55px;
+    text-align: center;
+}
+.label4{
+    width: 200px;
+    margin-left: 55px;    
+}
+.label5{
+    width: 50px;
+    margin-left: 55px;    
+}
+.boton{
+    margin-left: 20px;
 }
